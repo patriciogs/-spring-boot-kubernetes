@@ -4,7 +4,10 @@ pipeline {
   
   stages {
     stage("initial"){
-      echo "First commit"
+      steps {
+        echo "First commit"
+      }
     }
   }
 }
+
